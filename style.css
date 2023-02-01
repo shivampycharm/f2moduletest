@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 3vw;
+}
+
+.images img {
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    margin: 8vh 5vw;
+    display: none;
+}
+
+#form .in {
+    display: flex;
+    margin: 20px 0;
+
+}
+
+#form .in label {
+    width: 150px;
+    font-size: 1.4rem;
+}
+
+#form input {
+    width: 50vw;
+    padding: 5px 1vw;
+    font-size: 1rem;
+}
